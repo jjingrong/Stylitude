@@ -63,3 +63,6 @@ let arrayOfProductImages = ["Dress1",
     "Dress5",
     "Dress6",
 ]
+
+
+var cartCheckout = 0

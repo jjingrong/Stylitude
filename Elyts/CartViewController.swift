@@ -48,7 +48,7 @@ class CartViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     }
     
     @IBAction func checkoutButtonPressed(sender: AnyObject) {
-
+        TAOverlay.showOverlayWithLabel("Payment with MasterPass Completed!", options: [TAOverlayOptions.OverlayTypeSuccess, TAOverlayOptions.AutoHide,TAOverlayOptions.OverlaySizeRoundedRect])
     }
     
     @IBAction func backButtonPressed(sender: AnyObject) {

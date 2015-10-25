@@ -12,9 +12,6 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var logInButton: UIButton!
     
-    @IBOutlet weak var customerTextField: UITextField!
-    
-    
     var user = CustomerModel.sharedInstance
     
     override func viewDidLoad() {
@@ -30,11 +27,6 @@ class LoginViewController: UIViewController {
 
     @IBAction func logInButtonPressed(sender: AnyObject) {
 //        shouldPerformSegueWithIdentifier("goToCategoryView", sender: self)
-        if let nameInput = customerTextField.text {
-            user.setName(nameInput)
-        } else {
-            user.setName(customerTextField.placeholder!)
-        }
 
     }
 }
