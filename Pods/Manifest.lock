@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (3.1.0)
+  - Firebase (2.4.2)
+  - SwiftyJSON (2.3.0)
+  - TAOverlay (2.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Firebase (>= 2.4.2)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - TAOverlay
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 83dc3138b14571200ea7f070933a2a510491e997
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 415bd7f56197722978759078486689f7ef913dce
+  Firebase: 5e898ed5012c81d28ca5fae1113c6b61a172bc6d
+  SwiftyJSON: cacfe0373d584585716bd1d43202c24cc66afd65
+  TAOverlay: 940e37fdb45fbc9acfc73bf1089668367e3b1be6
+
+COCOAPODS: 0.39.0

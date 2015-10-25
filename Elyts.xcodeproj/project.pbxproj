@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4115E5BB1BDCC4FC008D4F02 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5BA1BDCC4FC008D4F02 /* CustomerModel.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5BD1BDCC505008D4F02 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5BC1BDCC505008D4F02 /* CartModel.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5BF1BDCC518008D4F02 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5BE1BDCC518008D4F02 /* ProductModel.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5C11BDCC97A008D4F02 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C01BDCC97A008D4F02 /* CategoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5C31BDCC992008D4F02 /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C21BDCC992008D4F02 /* CategoryViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5C61BDCCB75008D4F02 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C51BDCCB75008D4F02 /* FriendModel.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5C81BDCCC02008D4F02 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C71BDCCC02008D4F02 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
 		41D4EA1C1BDCBCFB00E08F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */; };
-		41D4EA1E1BDCBCFB00E08F51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1D1BDCBCFB00E08F51 /* ViewController.swift */; };
+		41D4EA1E1BDCBCFB00E08F51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */; };
 		41D4EA211BDCBCFB00E08F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D4EA1F1BDCBCFB00E08F51 /* Main.storyboard */; };
 		41D4EA241BDCBCFB00E08F51 /* Elyts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA221BDCBCFB00E08F51 /* Elyts.xcdatamodeld */; };
 		41D4EA261BDCBCFB00E08F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D4EA251BDCBCFB00E08F51 /* Assets.xcassets */; };
 		41D4EA291BDCBCFB00E08F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D4EA271BDCBCFB00E08F51 /* LaunchScreen.storyboard */; };
+		41D4EA311BDCBE6B00E08F51 /* NetworkUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA301BDCBE6B00E08F51 /* NetworkUI.swift */; settings = {ASSET_TAGS = (); }; };
+		6651D877DD3C98FADA094DA0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576349B09FBD486B577E1A18 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4115E5BA1BDCC4FC008D4F02 /* CustomerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		4115E5BC1BDCC505008D4F02 /* CartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		4115E5BE1BDCC518008D4F02 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		4115E5C01BDCC97A008D4F02 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		4115E5C21BDCC992008D4F02 /* CategoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
+		4115E5C51BDCCB75008D4F02 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		4115E5C71BDCCC02008D4F02 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		41D4EA181BDCBCFB00E08F51 /* Elyts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elyts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41D4EA1D1BDCBCFB00E08F51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		41D4EA201BDCBCFB00E08F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41D4EA231BDCBCFB00E08F51 /* Elyts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Elyts.xcdatamodel; sourceTree = "<group>"; };
 		41D4EA251BDCBCFB00E08F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41D4EA281BDCBCFB00E08F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41D4EA2A1BDCBCFB00E08F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D4EA301BDCBE6B00E08F51 /* NetworkUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUI.swift; sourceTree = "<group>"; };
+		576349B09FBD486B577E1A18 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC3821E274336C8D40F2002 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E855C7F3F5728E6FEB6640F3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6651D877DD3C98FADA094DA0 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121CE4912BD827D74EB68FC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E855C7F3F5728E6FEB6640F3 /* Pods.debug.xcconfig */,
+				5BC3821E274336C8D40F2002 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4115E5C41BDCC99A008D4F02 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4115E5C01BDCC97A008D4F02 /* CategoryViewController.swift */,
+				4115E5C21BDCC992008D4F02 /* CategoryViewCell.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		41D4EA0F1BDCBCFB00E08F51 = {
 			isa = PBXGroup;
 			children = (
 				41D4EA1A1BDCBCFB00E08F51 /* Elyts */,
 				41D4EA191BDCBCFB00E08F51 /* Products */,
+				121CE4912BD827D74EB68FC0 /* Pods */,
+				4FDBEA8DF042E5138A017713 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +98,14 @@
 			isa = PBXGroup;
 			children = (
 				41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */,
-				41D4EA1D1BDCBCFB00E08F51 /* ViewController.swift */,
+				4115E5C71BDCCC02008D4F02 /* Constants.swift */,
+				41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */,
+				4115E5C41BDCC99A008D4F02 /* Category */,
+				4115E5BA1BDCC4FC008D4F02 /* CustomerModel.swift */,
+				4115E5BC1BDCC505008D4F02 /* CartModel.swift */,
+				4115E5BE1BDCC518008D4F02 /* ProductModel.swift */,
+				41D4EA301BDCBE6B00E08F51 /* NetworkUI.swift */,
+				4115E5C51BDCCB75008D4F02 /* FriendModel.swift */,
 				41D4EA1F1BDCBCFB00E08F51 /* Main.storyboard */,
 				41D4EA251BDCBCFB00E08F51 /* Assets.xcassets */,
 				41D4EA271BDCBCFB00E08F51 /* LaunchScreen.storyboard */,
@@ -67,6 +115,14 @@
 			path = Elyts;
 			sourceTree = "<group>";
 		};
+		4FDBEA8DF042E5138A017713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576349B09FBD486B577E1A18 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41D4EA2D1BDCBCFB00E08F51 /* Build configuration list for PBXNativeTarget "Elyts" */;
 			buildPhases = (
+				2654714F59F3C3C03E1C46B7 /* Check Pods Manifest.lock */,
 				41D4EA141BDCBCFB00E08F51 /* Sources */,
 				41D4EA151BDCBCFB00E08F51 /* Frameworks */,
 				41D4EA161BDCBCFB00E08F51 /* Resources */,
+				DD29D5B52A2431893A7AF84B /* Embed Pods Frameworks */,
+				2B437F87F8BD46050B73A793 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +191,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2654714F59F3C3C03E1C46B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B437F87F8BD46050B73A793 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD29D5B52A2431893A7AF84B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41D4EA141BDCBCFB00E08F51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41D4EA1E1BDCBCFB00E08F51 /* ViewController.swift in Sources */,
+				41D4EA1E1BDCBCFB00E08F51 /* LoginViewController.swift in Sources */,
+				4115E5C81BDCCC02008D4F02 /* Constants.swift in Sources */,
 				41D4EA241BDCBCFB00E08F51 /* Elyts.xcdatamodeld in Sources */,
+				41D4EA311BDCBE6B00E08F51 /* NetworkUI.swift in Sources */,
+				4115E5BD1BDCC505008D4F02 /* CartModel.swift in Sources */,
+				4115E5C11BDCC97A008D4F02 /* CategoryViewController.swift in Sources */,
+				4115E5C61BDCCB75008D4F02 /* FriendModel.swift in Sources */,
+				4115E5BB1BDCC4FC008D4F02 /* CustomerModel.swift in Sources */,
+				4115E5BF1BDCC518008D4F02 /* ProductModel.swift in Sources */,
+				4115E5C31BDCC992008D4F02 /* CategoryViewCell.swift in Sources */,
 				41D4EA1C1BDCBCFB00E08F51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +363,7 @@
 		};
 		41D4EA2E1BDCBCFB00E08F51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E855C7F3F5728E6FEB6640F3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Elyts/Info.plist;
@@ -259,6 +375,7 @@
 		};
 		41D4EA2F1BDCBCFB00E08F51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC3821E274336C8D40F2002 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Elyts/Info.plist;
@@ -287,6 +404,7 @@
 				41D4EA2F1BDCBCFB00E08F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
