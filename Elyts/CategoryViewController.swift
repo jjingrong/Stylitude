@@ -57,11 +57,11 @@ class CategoryViewController: UIViewController, UICollectionViewDelegateFlowLayo
     }
     
     func populateCards() {
-        for i in 0...9 {
+        for i in 0...5 {
             let options = MDCSwipeToChooseViewOptions()
             options.delegate = self
-            options.likedText = "Added!"
-            options.nopeText = "Nope"
+            options.likedText = "Yay"
+            options.nopeText = "Nay"
             options.onPan = { state -> Void in
                 if state.thresholdRatio == 1 && state.direction == MDCSwipeDirection.Left {
 //                    print("Photo deleted!")
@@ -74,7 +74,7 @@ class CategoryViewController: UIViewController, UICollectionViewDelegateFlowLayo
             let frameForPicture = CGRect(x: 30, y: 50 , width: 312, height: 454)
             
             let view = MDCSwipeToChooseView(frame: frameForPicture, options: options)
-            view.imageView.image = UIImage(named: "photo.jpg")
+            view.imageView.image = UIImage(named: arrayOfProductImages[i])
             self.view.addSubview(view)
             view.tag = i
         }
@@ -130,11 +130,22 @@ class CategoryViewController: UIViewController, UICollectionViewDelegateFlowLayo
     }
     
     @IBAction func buttonTwoPressed(sender: AnyObject) {
+        clearAllCards()
     }
     
     @IBAction func buttonThreePressed(sender: AnyObject) {
     }
     
+    @IBAction func cartButtonPressed(sender: AnyObject) {
+        clearAllCards()
+    }
+    private func clearAllCards() {
+        
+    }
+    
+    @IBAction func backButtonPressed(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
     
     
 }

@@ -22,7 +22,8 @@ class CartViewCell: UICollectionViewCell {
         self.nameLabel.text = name
         self.brandLabel.text = brand
         self.priceLabel.text = "$" + String(price)
-        self.itemImage = UIImageView(image: UIImage(named: imageFile))
+
+        self.itemImage.image = UIImage(named: imageFile)
     }
     @IBAction func deleteButtonPressed(sender: AnyObject) {
         self.removeFromSuperview()

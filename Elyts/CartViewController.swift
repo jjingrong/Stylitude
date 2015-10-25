@@ -6,6 +6,9 @@
 //  Copyright © 2015 Lim Jing Rong. All rights reserved.
 //
 
+import UIKit
+import TAOverlay
+
 class CartViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource, UICollectionViewDelegate {
     
     /* Attributes */
@@ -39,10 +42,14 @@ class CartViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         
         let cell = allCheckoutItemTiles.dequeueReusableCellWithReuseIdentifier("CartViewCell", forIndexPath: indexPath) as! CartViewCell
         cell.setUpCell(arrayOfProducts[productID], brand: arrayOfProductsBrands[productID], price: arrayOfProductPrice[productID], imageFile: arrayOfProductImages[productID])
+        print (arrayOfProductImages[productID])
         cell.parent = allCheckoutItemTiles
         return cell
     }
     
+    @IBAction func checkoutButtonPressed(sender: AnyObject) {
+
+    }
     
     @IBAction func backButtonPressed(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)

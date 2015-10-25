@@ -14,6 +14,8 @@ class CategoryViewCell: UICollectionViewCell {
     
     func setUpCell(name: String, imageFile: String) {
         self.nameLabel.text = name
-        self.backgroundImage = UIImageView(image: UIImage(named: imageFile))
+        print (imageFile)
+//        self.backgroundImage = UIImageView(image: UIImage(named: imageFile))
+        self.backgroundImage.image = UIImage(named: imageFile)
     }
 }
