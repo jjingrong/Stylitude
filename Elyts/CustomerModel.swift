@@ -30,5 +30,7 @@ class CustomerModel {
     var historicalData = Dictionary<String, String>()
     
     /* Functions */
-    
+    func setName(newName: String) {
+        self.name = newName
+    }
 }

@@ -28,8 +28,7 @@ class NetworkUI:NSObject {
     
     /* Static URLs */
     
-    let kBaseUberSandboxURL = "server_url"
-    let kRequestUber = "service/"
+
     
     /* Functions */
     

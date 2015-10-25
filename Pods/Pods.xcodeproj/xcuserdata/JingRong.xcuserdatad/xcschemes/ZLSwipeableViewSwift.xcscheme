@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '64841CCE7142CA883EB5B4FD'
-               BlueprintName = 'TAOverlay'
+               BlueprintIdentifier = 'DCA1C404629B2FA5F7F36BE8'
+               BlueprintName = 'ZLSwipeableViewSwift'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'TAOverlay.framework'>
+               BuildableName = 'ZLSwipeableViewSwift.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

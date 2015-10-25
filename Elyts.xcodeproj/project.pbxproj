@@ -14,6 +14,7 @@
 		4115E5C31BDCC992008D4F02 /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C21BDCC992008D4F02 /* CategoryViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		4115E5C61BDCCB75008D4F02 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C51BDCCB75008D4F02 /* FriendModel.swift */; settings = {ASSET_TAGS = (); }; };
 		4115E5C81BDCCC02008D4F02 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C71BDCCC02008D4F02 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5CE1BDD2A18008D4F02 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5CD1BDD2A18008D4F02 /* SwipeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		41D4EA1C1BDCBCFB00E08F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */; };
 		41D4EA1E1BDCBCFB00E08F51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */; };
 		41D4EA211BDCBCFB00E08F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D4EA1F1BDCBCFB00E08F51 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		4115E5C21BDCC992008D4F02 /* CategoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
 		4115E5C51BDCCB75008D4F02 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 		4115E5C71BDCCC02008D4F02 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4115E5CD1BDD2A18008D4F02 /* SwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
 		41D4EA181BDCBCFB00E08F51 /* Elyts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elyts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				41D4EA301BDCBE6B00E08F51 /* NetworkUI.swift */,
 				4115E5C51BDCCB75008D4F02 /* FriendModel.swift */,
 				41D4EA1F1BDCBCFB00E08F51 /* Main.storyboard */,
+				4115E5CD1BDD2A18008D4F02 /* SwipeViewController.swift */,
 				41D4EA251BDCBCFB00E08F51 /* Assets.xcassets */,
 				41D4EA271BDCBCFB00E08F51 /* LaunchScreen.storyboard */,
 				41D4EA2A1BDCBCFB00E08F51 /* Info.plist */,
@@ -157,6 +160,7 @@
 				TargetAttributes = {
 					41D4EA171BDCBCFB00E08F51 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 3SST48GYDF;
 					};
 				};
 			};
@@ -255,6 +259,7 @@
 				4115E5BF1BDCC518008D4F02 /* ProductModel.swift in Sources */,
 				4115E5C31BDCC992008D4F02 /* CategoryViewCell.swift in Sources */,
 				41D4EA1C1BDCBCFB00E08F51 /* AppDelegate.swift in Sources */,
+				4115E5CE1BDD2A18008D4F02 /* SwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,10 +371,13 @@
 			baseConfigurationReference = E855C7F3F5728E6FEB6640F3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Elyts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jingrong.Elyts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -378,10 +386,13 @@
 			baseConfigurationReference = 5BC3821E274336C8D40F2002 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Elyts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jingrong.Elyts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
