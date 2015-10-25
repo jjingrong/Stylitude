@@ -38,6 +38,10 @@ class CartModel {
         self.cartItems.append(id)
     }
     
+    func deleteItemFromCart(idx: Int) {
+        self.cartItems.removeAtIndex(idx)
+    }
+    
     
     /* Getters */
     func getTotalItems() -> Int {

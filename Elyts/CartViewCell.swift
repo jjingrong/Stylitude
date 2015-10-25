@@ -15,6 +15,8 @@ class CartViewCell: UICollectionViewCell {
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var itemImage: UIImageView!
     
+    weak var parent: UICollectionView?
+    var cartModel = CartModel.sharedInstance
     
     func setUpCell(name: String, brand: String, price: Int, imageFile: String) {
         self.nameLabel.text = name
@@ -24,6 +26,8 @@ class CartViewCell: UICollectionViewCell {
     }
     @IBAction func deleteButtonPressed(sender: AnyObject) {
         self.removeFromSuperview()
+        cartModel.deleteItemFromCart( self.parent!.indexPathForCell(self)!.item )
+        self.parent!.reloadData()
     }
 }
 

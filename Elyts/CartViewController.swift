@@ -13,7 +13,7 @@ class CartViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
     // Storyboard outlets
     @IBOutlet weak var allCheckoutItemTiles: UICollectionView!
 
-    
+    @IBOutlet weak var deleteButton: UIButton!
     let customer = CustomerModel.sharedInstance
     var cartModel = CartModel.sharedInstance
     
@@ -39,10 +39,11 @@ class CartViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         
         let cell = allCheckoutItemTiles.dequeueReusableCellWithReuseIdentifier("CartViewCell", forIndexPath: indexPath) as! CartViewCell
         cell.setUpCell(arrayOfProducts[productID], brand: arrayOfProductsBrands[productID], price: arrayOfProductPrice[productID], imageFile: arrayOfProductImages[productID])
-        
-        
+        cell.parent = allCheckoutItemTiles
         return cell
     }
+    
+    
     @IBAction func backButtonPressed(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
