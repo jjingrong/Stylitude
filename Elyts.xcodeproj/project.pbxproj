@@ -14,7 +14,9 @@
 		4115E5C31BDCC992008D4F02 /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C21BDCC992008D4F02 /* CategoryViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		4115E5C61BDCCB75008D4F02 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C51BDCCB75008D4F02 /* FriendModel.swift */; settings = {ASSET_TAGS = (); }; };
 		4115E5C81BDCCC02008D4F02 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5C71BDCCC02008D4F02 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
-		4115E5CE1BDD2A18008D4F02 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5CD1BDD2A18008D4F02 /* SwipeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5D91BDD2C9B008D4F02 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4115E5D81BDD2C9B008D4F02 /* photo.jpg */; settings = {ASSET_TAGS = (); }; };
+		4115E5DB1BDD3349008D4F02 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5DA1BDD3349008D4F02 /* CartViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4115E5DD1BDD33B5008D4F02 /* CartViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115E5DC1BDD33B5008D4F02 /* CartViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		41D4EA1C1BDCBCFB00E08F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */; };
 		41D4EA1E1BDCBCFB00E08F51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */; };
 		41D4EA211BDCBCFB00E08F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D4EA1F1BDCBCFB00E08F51 /* Main.storyboard */; };
@@ -33,7 +35,10 @@
 		4115E5C21BDCC992008D4F02 /* CategoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
 		4115E5C51BDCCB75008D4F02 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 		4115E5C71BDCCC02008D4F02 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4115E5CD1BDD2A18008D4F02 /* SwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		4115E5D41BDD2B72008D4F02 /* Elyts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Elyts-Bridging-Header.h"; sourceTree = "<group>"; };
+		4115E5D81BDD2C9B008D4F02 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		4115E5DA1BDD3349008D4F02 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		4115E5DC1BDD33B5008D4F02 /* CartViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewCell.swift; sourceTree = "<group>"; };
 		41D4EA181BDCBCFB00E08F51 /* Elyts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elyts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +83,23 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		4115E5D71BDD2C6F008D4F02 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4115E5D81BDD2C9B008D4F02 /* photo.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4115E5DE1BDD33F2008D4F02 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				4115E5DA1BDD3349008D4F02 /* CartViewController.swift */,
+				4115E5DC1BDD33B5008D4F02 /* CartViewCell.swift */,
+			);
+			name = Cart;
+			sourceTree = "<group>";
+		};
 		41D4EA0F1BDCBCFB00E08F51 = {
 			isa = PBXGroup;
 			children = (
@@ -102,18 +124,20 @@
 				41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */,
 				4115E5C71BDCCC02008D4F02 /* Constants.swift */,
 				41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */,
+				4115E5DE1BDD33F2008D4F02 /* Cart */,
 				4115E5C41BDCC99A008D4F02 /* Category */,
 				4115E5BA1BDCC4FC008D4F02 /* CustomerModel.swift */,
 				4115E5BC1BDCC505008D4F02 /* CartModel.swift */,
 				4115E5BE1BDCC518008D4F02 /* ProductModel.swift */,
 				41D4EA301BDCBE6B00E08F51 /* NetworkUI.swift */,
+				4115E5D71BDD2C6F008D4F02 /* Images */,
 				4115E5C51BDCCB75008D4F02 /* FriendModel.swift */,
 				41D4EA1F1BDCBCFB00E08F51 /* Main.storyboard */,
-				4115E5CD1BDD2A18008D4F02 /* SwipeViewController.swift */,
 				41D4EA251BDCBCFB00E08F51 /* Assets.xcassets */,
 				41D4EA271BDCBCFB00E08F51 /* LaunchScreen.storyboard */,
 				41D4EA2A1BDCBCFB00E08F51 /* Info.plist */,
 				41D4EA221BDCBCFB00E08F51 /* Elyts.xcdatamodeld */,
+				4115E5D41BDD2B72008D4F02 /* Elyts-Bridging-Header.h */,
 			);
 			path = Elyts;
 			sourceTree = "<group>";
@@ -155,6 +179,7 @@
 		41D4EA101BDCBCFB00E08F51 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Lim Jing Rong";
 				TargetAttributes = {
@@ -187,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4115E5D91BDD2C9B008D4F02 /* photo.jpg in Resources */,
 				41D4EA291BDCBCFB00E08F51 /* LaunchScreen.storyboard in Resources */,
 				41D4EA261BDCBCFB00E08F51 /* Assets.xcassets in Resources */,
 				41D4EA211BDCBCFB00E08F51 /* Main.storyboard in Resources */,
@@ -249,9 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D4EA1E1BDCBCFB00E08F51 /* LoginViewController.swift in Sources */,
+				4115E5DD1BDD33B5008D4F02 /* CartViewCell.swift in Sources */,
 				4115E5C81BDCCC02008D4F02 /* Constants.swift in Sources */,
 				41D4EA241BDCBCFB00E08F51 /* Elyts.xcdatamodeld in Sources */,
 				41D4EA311BDCBE6B00E08F51 /* NetworkUI.swift in Sources */,
+				4115E5DB1BDD3349008D4F02 /* CartViewController.swift in Sources */,
 				4115E5BD1BDCC505008D4F02 /* CartModel.swift in Sources */,
 				4115E5C11BDCC97A008D4F02 /* CategoryViewController.swift in Sources */,
 				4115E5C61BDCCB75008D4F02 /* FriendModel.swift in Sources */,
@@ -259,7 +287,6 @@
 				4115E5BF1BDCC518008D4F02 /* ProductModel.swift in Sources */,
 				4115E5C31BDCC992008D4F02 /* CategoryViewCell.swift in Sources */,
 				41D4EA1C1BDCBCFB00E08F51 /* AppDelegate.swift in Sources */,
-				4115E5CE1BDD2A18008D4F02 /* SwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +398,7 @@
 			baseConfigurationReference = E855C7F3F5728E6FEB6640F3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Elyts/Info.plist;
@@ -378,6 +406,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jingrong.Elyts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Elyts/Elyts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -386,6 +416,7 @@
 			baseConfigurationReference = 5BC3821E274336C8D40F2002 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Elyts/Info.plist;
@@ -393,6 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jingrong.Elyts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Elyts/Elyts-Bridging-Header.h";
 			};
 			name = Release;
 		};

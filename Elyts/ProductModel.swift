@@ -11,6 +11,40 @@ import SwiftyJSON
 import Alamofire
 
 class ProductModel {
+    let arrayOfProductPrice = [10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+    ]
+    let arrayOfProducts = ["name1",
+        "name2",
+        "name3",
+        "name4",
+        "name5",
+        "name6",
+        "name7",
+        "name8",
+        "name9",
+        "name10"
+    ]
+    let arrayOfProductImages = ["photo",
+        "photo",
+        "photo",
+        "photo",
+        "photo",
+        "photo",
+        "photo",
+        "photo",
+        "photo",
+        "photo"
+    ]
+    
     
     /* Attributes */
     var productID: Int!
@@ -20,16 +54,22 @@ class ProductModel {
     /* Functions */
     
     /* getters */
-    private func getProductName(id: Int) -> String {
-        return "";
+    func getProductName(id: Int) -> String {
+
+        return arrayOfProducts[id]
     }
     
-    private func getHipsterScore(id: Int) -> Int {
+    func getHipsterScore(id: Int) -> Int {
         return 0;
     }
     
-    private func getPrice(id: Int) -> Int {
-        return 0;
+    func getPrice(id: Int) -> Int {
+        return arrayOfProductPrice[id]
     }
+    
+    func getImageString(id: Int) -> String {
+        return arrayOfProductImages[id]
+    }
+    
     
 }

@@ -86,6 +86,7 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/Alamofire.framework"
   install_framework "Pods/Firebase.framework"
+  install_framework "Pods/MDCSwipeToChoose.framework"
   install_framework "Pods/SwiftyJSON.framework"
   install_framework "Pods/TAOverlay.framework"
   install_framework "Pods/ZLSwipeableViewSwift.framework"
@@ -93,6 +94,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/Alamofire.framework"
   install_framework "Pods/Firebase.framework"
+  install_framework "Pods/MDCSwipeToChoose.framework"
   install_framework "Pods/SwiftyJSON.framework"
   install_framework "Pods/TAOverlay.framework"
   install_framework "Pods/ZLSwipeableViewSwift.framework"

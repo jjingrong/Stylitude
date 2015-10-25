@@ -28,6 +28,10 @@ class CartModel {
     /* Attributes */
     var cartItems: [Int]!
     
+    init() {
+        cartItems = []
+    }
+    
     /* Functions */
     /* Setters */
     func addItemToCart(id: Int) {

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '64841CCE7142CA883EB5B4FD'
+               BlueprintIdentifier = 'FE91542C05EE0B659384AE80'
                BlueprintName = 'TAOverlay'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TAOverlay.framework'>
