@@ -34,6 +34,7 @@
 		4115E6191BDD61CE008D4F02 /* MasterPass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4115E6181BDD61CE008D4F02 /* MasterPass.png */; settings = {ASSET_TAGS = (); }; };
 		4115E61B1BDD63CE008D4F02 /* 12038132_10207337745578563_5449271659129445950_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4115E61A1BDD63CE008D4F02 /* 12038132_10207337745578563_5449271659129445950_n.jpg */; settings = {ASSET_TAGS = (); }; };
 		4115E61D1BDD648D008D4F02 /* 12063567_10207337641695966_3246612705308542078_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4115E61C1BDD648D008D4F02 /* 12063567_10207337641695966_3246612705308542078_n.jpg */; settings = {ASSET_TAGS = (); }; };
+		413CA7051BDD721F00F16C30 /* masterfinal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 413CA7041BDD721F00F16C30 /* masterfinal.jpg */; settings = {ASSET_TAGS = (); }; };
 		41D4EA1C1BDCBCFB00E08F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */; };
 		41D4EA1E1BDCBCFB00E08F51 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */; };
 		41D4EA211BDCBCFB00E08F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D4EA1F1BDCBCFB00E08F51 /* Main.storyboard */; };
@@ -72,6 +73,7 @@
 		4115E6181BDD61CE008D4F02 /* MasterPass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterPass.png; sourceTree = "<group>"; };
 		4115E61A1BDD63CE008D4F02 /* 12038132_10207337745578563_5449271659129445950_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12038132_10207337745578563_5449271659129445950_n.jpg; sourceTree = "<group>"; };
 		4115E61C1BDD648D008D4F02 /* 12063567_10207337641695966_3246612705308542078_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12063567_10207337641695966_3246612705308542078_n.jpg; sourceTree = "<group>"; };
+		413CA7041BDD721F00F16C30 /* masterfinal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = masterfinal.jpg; sourceTree = "<group>"; };
 		41D4EA181BDCBCFB00E08F51 /* Elyts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elyts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D4EA1B1BDCBCFB00E08F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D4EA1D1BDCBCFB00E08F51 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				4115E5D81BDD2C9B008D4F02 /* photo.jpg */,
+				413CA7041BDD721F00F16C30 /* masterfinal.jpg */,
 				4115E6181BDD61CE008D4F02 /* MasterPass.png */,
 				4115E61A1BDD63CE008D4F02 /* 12038132_10207337745578563_5449271659129445950_n.jpg */,
 				4115E61C1BDD648D008D4F02 /* 12063567_10207337641695966_3246612705308542078_n.jpg */,
@@ -278,6 +281,7 @@
 				4115E6111BDD55F2008D4F02 /* Cateogry8.png in Resources */,
 				4115E6081BDD55F2008D4F02 /* Category1.png in Resources */,
 				4115E60B1BDD55F2008D4F02 /* Category4.png in Resources */,
+				413CA7051BDD721F00F16C30 /* masterfinal.jpg in Resources */,
 				41D4EA291BDCBCFB00E08F51 /* LaunchScreen.storyboard in Resources */,
 				4115E60F1BDD55F2008D4F02 /* Category9.png in Resources */,
 				4115E6151BDD5BB7008D4F02 /* 10521446_10152599093228073_5392901334091398405_o Cropped.jpg in Resources */,

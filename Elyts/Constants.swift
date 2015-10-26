@@ -37,31 +37,36 @@ let arrayOfProductPrice = [
     109,
     150,
     100,
+    129,
     109,
-    129
+
 ]
 let arrayOfProducts = [
     "Julia Dress / Genie",
     "Dahlia Drop Waist Dress",
     "Bombshell Dress",
     "Rockwood Nights ",
-    "Sabine Dress",
     "Ecote Willow Dress",
+    "Sabine Dress",
+    
 ]
 let arrayOfProductsBrands = [
     "Courtshop",
     "Pixiemarket",
     "Threadsense",
     "Threadsense",
-    "Need Supply Co",
     "Urban Outfitters",
+    "Need Supply Co",
+    
 ]
-let arrayOfProductImages = ["Dress1",
+let arrayOfProductImages = [
+    "Dress1",
     "Dress2",
     "Dress3",
     "Dress4",
-    "Dress5",
     "Dress6",
+    "Dress5",
+    
 ]
 
 

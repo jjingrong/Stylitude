@@ -279,17 +279,10 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VIP Checkout " textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="w9T-Mi-zWo">
-                                <rect key="frame" x="30" y="606" width="111" height="53"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                <color key="textColor" red="0.31372549019607843" green="0.82352941176470584" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8e-t6-et2">
-                                <rect key="frame" x="149" y="606" width="186" height="53"/>
+                                <rect key="frame" x="0.0" y="601" width="375" height="66"/>
                                 <animations/>
-                                <state key="normal" backgroundImage="MasterPass.png"/>
+                                <state key="normal" backgroundImage="masterfinal.jpg"/>
                                 <connections>
                                     <action selector="checkoutButtonPressed:" destination="Hre-Xc-4ew" eventType="touchUpInside" id="DBq-f0-RAy"/>
                                 </connections>
@@ -474,7 +467,7 @@
         <image name="12063567_10207337641695966_3246612705308542078_n.jpg" width="369" height="607"/>
         <image name="Category9.png" width="170" height="210"/>
         <image name="Expenditure Record.jpg" width="511" height="294"/>
-        <image name="MasterPass.png" width="196" height="61"/>
         <image name="left" width="700" height="700"/>
+        <image name="masterfinal.jpg" width="338" height="61"/>
     </resources>
 </document>
